@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Earth Co Clone</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <!-- Custom CSS -->
+    <!-- Add Google Font for the brand -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Add Google Fonts for the brand and nav -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400;700&family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid px-3">
+        <div class="d-flex w-100 align-items-center justify-content-between">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              src="/assets/brand.png"
+              alt="Brand"
+              style="max-width: 110px; height: auto"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div
+          class="collapse navbar-collapse flex-column flex-lg-row"
+          id="navbarNav"
+        >
+          <ul
+            class="navbar-nav ms-auto w-100 justify-content-lg-end flex-column flex-lg-row align-items-start align-items-lg-center"
+          >
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Highland Park/Eagle Rock</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Granada Hills</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About Us
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Locations
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Highland Park/Eagle Rock</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Granada Hills</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Delivery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Rewards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Causes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Deals & Events</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center text-center text-white">
+          <div class="col-12 col-md-10 col-lg-8">
+            <div data-aos="fade-up">
+              <h1 class="display-1 fw-bold mb-4">
+                LOS ANGELES DISPENSARY &<br />
+                MARIJUANA DELIVERY
+              </h1>
+              <p class="lead mb-4">
+                LA DISPENSARY + WEED DELIVERY + CURBSIDE PICK-UP NOW AVAILABLE!
+              </p>
+              <a href="#shop" class="btn btn-lg btn-custom hbt mb-2"
+                >SHOP HIGHLAND PARKS</a
+              >
+              <a href="#shop" class="btn btn-lg btn-custom hbt mb-2"
+                >SHOP GRANADA HILLS</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section py-5">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Order Online Card -->
+          <div
+            class="col-12 col-sm-6 col-lg-3"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div class="category-card position-relative overflow-hidden h-100">
+              <img
+                src="/assets/order_online.jpg"
+                class="img-fluid w-100"
+                alt="Order Online"
+              />
+              <div class="overlay"></div>
+              <div class="border-box">
+                <span class="line line-left"></span>
+                <span class="line line-right"></span>
+                <span class="line line-top"></span>
+                <span class="line line-bottom"></span>
+              </div>
+              <div class="category-content">
+                <h3 class="text-white mb-0">ORDER ONLINE</h3>
+              </div>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div>
+          <!-- Locations Card -->
+          <div
+            class="col-12 col-sm-6 col-lg-3"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div class="category-card position-relative overflow-hidden h-100">
+              <img
+                src="/assets/location.jpg"
+                class="img-fluid w-100"
+                alt="Order Online"
+              />
+              <div class="overlay"></div>
+              <div class="border-box">
+                <span class="line line-left"></span>
+                <span class="line line-right"></span>
+                <span class="line line-top"></span>
+                <span class="line line-bottom"></span>
+              </div>
+              <div class="category-content">
+                <h3 class="text-white mb-0">LOCATIONS</h3>
+              </div>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div>
+          <!-- Rewards Card -->
+          <div
+            class="col-12 col-sm-6 col-lg-3"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div class="category-card position-relative overflow-hidden h-100">
+              <img
+                src="/assets/rewards.jpg"
+                class="img-fluid w-100"
+                alt="Order Online"
+              />
+              <div class="overlay"></div>
+              <div class="border-box">
+                <span class="line line-left"></span>
+                <span class="line line-right"></span>
+                <span class="line line-top"></span>
+                <span class="line line-bottom"></span>
+              </div>
+              <div class="category-content">
+                <h3 class="text-white mb-0">REWARDS</h3>
+              </div>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div>
+          <!-- Medical Recommendation Card -->
+          <div
+            class="col-12 col-sm-6 col-lg-3"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div class="category-card position-relative overflow-hidden h-100">
+              <img
+                src="/assets/get_your_rec.jpg"
+                class="img-fluid w-100"
+                alt="Order Online"
+              />
+              <div class="overlay"></div>
+              <div class="border-box">
+                <span class="line line-left"></span>
+                <span class="line line-right"></span>
+                <span class="line line-top"></span>
+                <span class="line line-bottom"></span>
+              </div>
+              <div class="category-content">
+                <h3 class="text-white mb-0">
+                  GET YOUR MEDICAL<br />RECOMMENDATION
+                </h3>
+              </div>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section id="locations" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h2 class="display-4">Offering 10% off to new customers!</h2>
+        </div>
+        <!-- Highland Park Location -->
+        <div class="row mb-5 align-items-center" data-aos="fade-up">
+          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.7061142887604!2d-118.19466492427587!3d34.12068971519076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c4f2d5429e1d%3A0x7b1f89a421b31c57!2s4801%20York%20Blvd%2C%20Los%20Angeles%2C%20CA%2090042!5e0!3m2!1sen!2sus!4v1710241431099!5m2!1sen!2sus"
+                width="100%"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="location-content ps-lg-5">
+              <h3 class="h2 mb-4">Highland Park / Eagle Rock</h3>
+              <div class="location-details">
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-geo-alt-fill text-success fs-4 me-3"></i>
+                  <p class="mb-0">4801 York Blvd<br />Los Angeles, CA 90042</p>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-telephone-fill text-success fs-4 me-3"></i>
+                  <p class="mb-0">(323) 349-0949</p>
+                </div>
+                <div class="d-flex align-items-center mb-4">
+                  <i class="bi bi-clock-fill text-success fs-4 me-3"></i>
+                  <div>
+                    <p class="mb-1"><strong>Hours:</strong></p>
+                    <p class="mb-0">
+                      Monday - Friday: 8am - 10pm<br />Saturday - Sunday: 9am -
+                      10pm
+                    </p>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-success">SHOP NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Granada Hills Location -->
+        <div class="row align-items-center" data-aos="fade-up">
+          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3297.537749886284!2d-118.53338812426825!3d34.25774070714707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29a08e84a1b67%3A0x5a5c5f4645e08ce3!2s17719%20Chatsworth%20St%2C%20Granada%20Hills%2C%20CA%2091344!5e0!3m2!1sen!2sus!4v1710241493805!5m2!1sen!2sus"
+                width="100%"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="location-content ps-lg-5">
+              <h3 class="h2 mb-4">Granada Hills</h3>
+              <div class="location-details">
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-geo-alt-fill text-success fs-4 me-3"></i>
+                  <p class="mb-0">
+                    17719 Chatsworth St<br />Granada Hills, CA 91344
+                  </p>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                  <i class="bi bi-telephone-fill text-success fs-4 me-3"></i>
+                  <p class="mb-0">(818) 488-9119</p>
+                </div>
+                <div class="d-flex align-items-center mb-4">
+                  <i class="bi bi-clock-fill text-success fs-4 me-3"></i>
+                  <div>
+                    <p class="mb-1"><strong>Hours:</strong></p>
+                    <p class="mb-0">
+                      Monday - Friday: 8am - 10pm<br />Saturday - Sunday: 9am -
+                      10pm
+                    </p>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-success">SHOP NOW </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center mt-4">
+      <a href="#" class="btn btn-success btn-lg mb-4"
+        >SIGN UP TO OUR NEWSLETTER</a
+      >
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="parallax-section about-section text-white">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center" data-aos="fade-up">
+            <h2 class="display-4 mb-4">Become an Medical Marijuana Patient</h2>
+            <a href="#" class="btn btn-success btn-lg mb-4"
+              >BEGIN THE PROCESS</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 col-lg-6 mx-auto">
+            <h2 class="display-4 testimonials mb-5">What People Are Saying:</h2>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card testimonial-card h-100">
+              <div class="card-body">
+                <p class="card-text">
+                  This place was super cool had everything u could wish for in
+                  high quality bud. Every strain looked so tempting i wanted to
+                  get everything. This is truely some heavy highs you'll find
+                  here. Everything is grown properly never have I been
+                  dissappointed when picking up here so check this place out
+                  buds are the bomb worth every penny. Keep it up guys.
+                </p>
+                <footer class="blockquote-footer mt-3">
+                  LOUDTALK <br />Weedmaps user
+                </footer>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card testimonial-card h-100">
+              <div class="card-body">
+                <p class="card-text">
+                  Green earth is by far my favorite spot. From their shake to
+                  their Cannabis Cup Winning Private reserve everything is
+                  quality. Seriously even the shake is amazing!!! I also picked
+                  up some Jambo CBD spray and this stuff is the real deal. I've
+                  had severe anxiety for years and the Jambo spray is the only
+                  thing that has been able to give me true relief. Dont get me
+                  wrong, i love kicking back and smoking a joint to relieve
+                  anxiety but i cant alway be high….Jambo CBD spray is
+                  Non-psychoactive! No High but you still get all of the medical
+                  benefits. Thank you Green Earth, you've found yourself a loyal
+                  long time patient
+                </p>
+                <footer class="blockquote-footer mt-3">
+                  NUGZRUS90 <br />Weedmaps user
+                </footer>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card testimonial-card h-100">
+              <div class="card-body">
+                <p class="card-text">
+                  Amazing ladies! and they definitely made me feel safe picking
+                  up my order in these mad times.. follows strict regulations of
+                  only 10 people in building and that includes the waiting line
+                  area so only really 5 inside at a time and 5 out waiting i
+                  think either way they nailed it again worth the drive from
+                  Pasadena thnx every1
+                </p>
+                <footer class="blockquote-footer mt-3">
+                  princessstonersarah <br />Weedmaps user
+                </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script>
+      // Smooth scroll for navigation
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
