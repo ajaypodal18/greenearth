@@ -9,8 +9,7 @@ body {
     overflow-x: hidden;
   }
   .navbar {
-    /* background-color: #335025; */
-    background-color: #3350;
+    background-color: #335025;
     min-height: 110px;
     box-shadow: none;
     border: none;
